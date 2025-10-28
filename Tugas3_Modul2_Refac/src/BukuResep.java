@@ -54,4 +54,21 @@ public class BukuResep {
         }
         System.out.println("-----------------------------");
     }
+
+// --- PENAMBAHAN FITUR BARU ---
+    /**
+     * Menghapus resep dari buku resep berdasarkan judul.
+     * Memberikan notifikasi sukses jika berhasil atau error jika resep tidak ditemukan.
+     *
+     * @param judul Judul resep yang akan dihapus (case-insensitive).
+     */
+    public void hapusResep(String judul) {
+        String kunciJudul = judul.toLowerCase();
+        if (daftarResep.containsKey(kunciJudul)) {
+            daftarResep.remove(kunciJudul);
+            System.out.println("SUKSES: Resep '" + judul + "' berhasil dihapus.");
+        } else {
+            System.out.println("\nERROR: Resep '" + judul + "' tidak ditemukan, tidak ada yang dihapus.");
+        }
+    }
 }

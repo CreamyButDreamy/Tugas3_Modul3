@@ -28,7 +28,9 @@ public class Main {
                 case "1": prosesTambahResep(); break;
                 case "2": bukuSaya.tampilkanSemuaJudulResep(); break;
                 case "3": prosesCariResep(); break;
-                case "4":
+                //menambahkan case untuk hapus
+                case "4": prosesHapusResep(); break;
+                case "5":
                     System.out.println("\nTerima kasih telah menggunakan Buku Resep Digital!");
                     return;
                 default:
@@ -47,7 +49,9 @@ public class Main {
         System.out.println("1. Tambah Resep Baru");
         System.out.println("2. Lihat Semua Judul Resep");
         System.out.println("3. Cari dan Tampilkan Resep");
-        System.out.println("4. Keluar");
+        //menambahkan opsi hapus
+        System.out.println("4. Hapus resep yang sudah ada");
+        System.out.println("5. Keluar");
         System.out.println("==============================");
     }
 
@@ -92,4 +96,15 @@ public class Main {
         String judul = scanner.nextLine();
         bukuSaya.tampilkanResep(judul);
     }
+// --- TAMBAHKAN METODE BARU UNTUK PROSES HAPUS ---
+    /**
+     * Memproses alur untuk menghapus resep berdasarkan judul yang diinput pengguna.
+     */
+    private static void prosesHapusResep() {
+        System.out.println("\n--- Hapus Resep ---");
+        System.out.print("Masukkan judul resep yang ingin dihapus: ");
+        String judul = scanner.nextLine();
+        bukuSaya.hapusResep(judul);
+    }
+
 }
