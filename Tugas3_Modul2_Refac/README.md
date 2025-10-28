@@ -40,7 +40,7 @@ Lihat Semua Judul Resep
 
 Cari dan Tampilkan Resep
 
-Keluar ==============================
+=============== Keluar ===============
 
 -   Pilih **menu 1** untuk menambahkan resep baru. Ikuti instruksi untuk memasukkan judul, bahan-bahan, dan langkah-langkah. Ketik `selesai` untuk mengakhiri input bahan atau langkah.
 -   Pilih **menu 2** untuk melihat daftar semua judul resep yang sudah Anda simpan.
