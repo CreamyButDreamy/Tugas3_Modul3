@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TUGAS 3 MODUL 2.iml" filepath="$PROJECT_DIR$/.idea/TUGAS 3 MODUL 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tugas3_Modul2_Refac/Tugas3_Modul2_Refac.iml" filepath="$PROJECT_DIR$/Tugas3_Modul2_Refac/Tugas3_Modul2_Refac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tugas3_Modul2_belumRefac/Tugas3_Modul2_belumRefac.iml" filepath="$PROJECT_DIR$/Tugas3_Modul2_belumRefac/Tugas3_Modul2_belumRefac.iml" />
+    </modules>
+  </component>
+</project>
