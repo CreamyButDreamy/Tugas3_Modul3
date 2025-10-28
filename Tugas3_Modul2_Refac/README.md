@@ -31,6 +31,7 @@ Untuk menjalankan proyek ini, pastikan Anda memiliki Java Development Kit (JDK) 
 ## Cara Menggunakan Aplikasi
 
 Saat program dijalankan, Anda akan melihat menu utama:
+
 ===== BUKU RESEP DIGITAL =====
 
 Tambah Resep Baru
